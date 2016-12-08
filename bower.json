@@ -1,0 +1,27 @@
+{
+  "name": "firstapp",
+  "version": "1.0",
+  "authors": [
+    "kartik"
+  ],
+  "description": "first application",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-sanitize": "^1.5.8",
+    "angular-resource": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "angular-cookies": "^1.5.8",
+    "angular-chart.js": "^1.0.3",
+    "chart.js": "^2.3.0",
+    "bootstrap": "^3.3.7",
+    "angular-cookies": "^1.5.8"
+  }
+}

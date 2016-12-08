@@ -1,0 +1,35 @@
+<div class="container">
+    <form class="form-signin well well-lg" ng-submit="signUpPage.processSignUp()">
+        <h1>Sign up</h1>
+        <hr>
+        <div>{{signUpPage.messageZone}}</div>
+        <hr>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="text" id="inputEmail" class="form-control"
+        placeholder="Email address" required ng-model="signUpPage.userEmail">
+
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control"
+        placeholder="Password" required ng-model="signUpPage.userPassword">
+
+        <label for="inputPassword" class="sr-only">Confirm Password</label>
+        <input type="password" id="inputPassword" class="form-control"
+        placeholder="Password" required ng-model="signUpPage.confirmUserPassword">
+
+        <button class="btn btn-primary" type="submit">Sign Up</button>
+        <button class="btn btn-primary" type="button" ng-click="signUpPage.goToLogin()">Login</button>
+    </form>
+</div>
+
+
+
+<!--//ui routing, scope, html attributes, bootstrap
+//Next session
+//http sending data to server
+ // client side and server side validation
+  // advancedTopic : request schema validation
+//resource in angularjs
+//querying mongodb
+//error handling
+//showing toasties
+-->

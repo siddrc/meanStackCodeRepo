@@ -1,0 +1,23 @@
+<div class="loginBody">
+<div></div>
+	<div class="container">
+		<form class="form-signin well well-lg" ng-submit="processLogin()">
+			<h1>Sign in{{userEmail}}</h1>
+			<hr>
+			<label for="inputEmail" class="sr-only">Email address</label>
+			<input type="text" id="inputEmail" class="form-control" placeholder="Email address" required  
+			ng-model="userEmail">
+			<label for="inputPassword" class="sr-only">Password</label>
+			<input type="password" id="inputPassword" class="form-control" placeholder="Password" required 
+			ng-model="userPassword">
+			<div class="checkbox">
+				<label>
+					<input type="checkbox" value="Y" id="rememberUser" ng-model="rememberUser" ng-click="rememberUserLogin()"> Remember me
+				</label>
+			</div>
+			<button class="btn btn-primary" type="submit">Login</button>
+			<button type="button" class="btn btn-info" ng-click="goToSignUp()">Sign Up</button>
+			<a type="button" href="#/forgotPassword" class="btn btn-link">Forgot Password</a>
+		</form>
+	</div>
+</div>
